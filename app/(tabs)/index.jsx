@@ -10,8 +10,8 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useRoute } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
 import { useNavigation } from "@react-navigation/native";
-// import CheckBox from "@react-native-community/checkbox";
 import { CheckBox } from "react-native-elements";
+
 
 const Stack = createStackNavigator();
 const CartContext = createContext();
